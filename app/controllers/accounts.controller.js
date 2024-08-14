@@ -29,6 +29,7 @@ exports.create = function (req, res)  {
         phone : req.body.phone,
         password : req.body.password,
         dob : req.body.dob,
+          passportNumber : req.body.passportNo,
       });
     
       // Save User in the database
