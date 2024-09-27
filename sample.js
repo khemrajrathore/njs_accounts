@@ -6,8 +6,6 @@ function firstPrint(someparam) {
 
 function simplePrint (someparam) {
     console.log("myname");
-
-    
     console.log(someparam);
 }
 
