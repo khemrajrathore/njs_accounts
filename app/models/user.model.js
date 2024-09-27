@@ -10,6 +10,7 @@ const User = function(user) {
   this.password = user.password;
   this.dob = user.dob;
   this.passportNumber = user.passportNumber;
+  this.creditCard = user.creditCard;
 };
 
 User.create = function (newUser, result) {
