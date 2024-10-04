@@ -9,6 +9,8 @@ const User = function(user) {
   this.phone = user.phone;
   this.password = user.password;
   this.dob = user.dob;
+  this.passportNumber = user.passportNumber;
+  this.creditCard = user.creditCard;
 };
 
 User.create = function (newUser, result) {
